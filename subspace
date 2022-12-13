@@ -134,7 +134,7 @@ break
 "Wipe Farmer and Purge-chain")
 systemctl stop subspace subspacefarm
 farmer wipe
-subspace purge-chain --chain gemini-2a -y
+subspace purge-chain --chain gemini-3a -y
 sudo systemctl restart subspacefarm subspace
 break
 ;;
